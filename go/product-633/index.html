@@ -1,0 +1,34 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml">
+<head><script src="/_offline-api.js"></script>
+    <meta content="always" name="referrer"/>
+</head>
+<body>
+
+<script th:inline="javascript">
+    /*<![CDATA[*/
+
+
+    function bol(){
+        if (top.location != self.location) {
+            return false;
+        }
+
+
+        var real_jump_address = 'https://s.click.taobao.com/t?e=m%3D2%26s%3DEuM%2B22x0rNFw4vFB6t2Z2ueEDrYVVa64Dne87AjQPk9yINtkUhsv0CwSeVtzn%2Be21%2F2hiIlVkdH1OuG%2B%2Fr5GkOUSw0e4myFo1smZPEZ2ipmiiPM1r5xAKSj18q%2FmSMZBbU6PpfwCeuROYgWQLBRPVWKwnKbZSFuIqGaO11%2FWZ3%2B4QbxIqaXAfuEZVvyuiPAZt5y%2Fiwok5bcW3TsBBAgQI6LFbG4RpKrxJ8%2BQyfrT4POZWHduJoXJzufOU%2FaYLfO5B55fpf%2BdrKLxfkb4LVDJXMYOae24fhW0&amp;union_lens=lensId%3AMAPI%401792834310%402146a389_0e0f_1a16d4092ca_9617%4001%40eyJmbG9vcklkIjo4MDMwOX0ie&amp;ref=&amp;et=fcyma5Pw12eL2Rgouo9xZJcmCdGi%2FNTS'
+
+        if (!window.attachEvent) {
+            document.write('<input style="display:none" type="button" id="exe" value="" onclick="window.location=\'' + real_jump_address + '\'">');
+            document.getElementById('exe').click();
+        } else {
+            document.write('<a style="display:none" href="' + real_jump_address + '" id="exe"></a>');
+            document.getElementById('exe').click();
+        }
+    }//end of bol()
+    bol();
+
+    /*]]>*/
+</script>
+</body>
+</html>
